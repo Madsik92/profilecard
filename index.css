@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-    max-width: 90%;
+    max-width: 310px;
     height: auto;
     padding: 2rem;
     background-color: #dbd8da;
@@ -34,10 +34,11 @@ body {
     width: 10rem;
     height: 10rem;
     border-radius: 50%; 
+    background-color: #dbd8da;
     border: 0.8rem solid #dbd8da;
     position: absolute;
     z-index: 1;
-    top: -28%;    
+    top: -25%;    
     left: 50%;
     transform: translateX(-50%);    
 }
